@@ -66,6 +66,9 @@ shangbiao ™
 sb ™
 tm ™
 du °
+oumu Ω,ω
+dianzu Ω,ω
+dz Ω,ω
 wendu ℃,℉
 wd ℃,℉
 sheshidu ℃
@@ -90,9 +93,9 @@ cc ㏄
 ln ㏑
 log ㏒
 mil ㏕
-rmb ￥
-huobi ¤,￥,$,¢,€,£,₣,฿,₡,₠,₢,₯,₫,₭,₤,₥,₦,₰,₧,₱,₨,৳,₪,₩,₮
-hb ¤,￥,$,¢,€,£,₣,฿,₡,₠,₢,₯,₫,₭,₤,₥,₦,₰,₧,₱,₨,৳,₪,₩,₮
+huobi ¤,￥,¥,$,¢,€,£,₣,฿,₡,₠,₢,₯,₫,₭,₤,₥,₦,₰,₧,₱,₨,৳,₪,₩,₮
+hb ¤,￥,¥,$,¢,€,£,₣,฿,₡,₠,₢,₯,₫,₭,₤,₥,₦,₰,₧,₱,₨,৳,₪,₩,₮
+rmb ￥,¥
 chuizhi ⊥
 jiaodu ∠
 jia +
@@ -201,6 +204,21 @@ v ǖ,ǘ,ǚ,ǜ,ü
 yu ǖ,ǘ,ǚ,ǜ,ü
 m 
 n ń,ň,
+]]
+
+辅音:    清辅音：
+            浊辅音：
+元音： 长元音：
+            短元音：
+            双元音：
+
+_MAPPING_TABLE_YinBiao = [[
+yy i,e,æ,ə,ʌ,ɔ,u,i:,ə:,a:,ɔ:,u:,i,e,æ,ə,ʌ,ɔ,u,i:,ə:,a:,ɔ:,u:
+fy b,d,g,v,ð,z,ʒ,r,dʒ,dz,dr,p,t,k,f,θ,s,ʃ,h,tʃ,ts,tr
+dyy i,e,æ,ə,ʌ,ɔ,u,i:,ə:,a:,ɔ:,u:
+syy ei,ai,ɔi,əu,au,iə,εə,uə
+zfy b,d,g,v,ð,z,ʒ,r,dʒ,dz,dr
+qfy p,t,k,f,θ,s,ʃ,h,tʃ,ts,tr
 ]]
 
 _MAPPING_TABLE_Quan = [[
@@ -314,6 +332,7 @@ _MAPPING_TABLE_Xuhao = [[
 
 _MAPPING = ime.parse_mapping(_MAPPING_TABLE, "\n", " ", ",")
 _MAPPING_PinYin = ime.parse_mapping(_MAPPING_TABLE_PinYin, "\n", " ", ",")
+_MAPPING_YinBiao = ime.parse_mapping(_MAPPING_TABLE_YinBiao, "\n", " ", ",")
 _MAPPING_Quan = ime.parse_mapping(_MAPPING_TABLE_Quan, "\n", " ", ",")
 _MAPPING_Xuhao = ime.parse_mapping(_MAPPING_TABLE_Xuhao, "\n", " ", ",")
 
@@ -329,6 +348,14 @@ end
 function PinYin(input)
   if _MAPPING_PinYin[input] then
     return _MAPPING_PinYin[input]
+  else
+    error("Invalid argument")
+  end
+end
+
+function YinBiao(input)
+  if _MAPPING_YinBiao[input] then
+    return _MAPPING_YinBiao[input]
   else
     error("Invalid argument")
   end
@@ -353,5 +380,6 @@ end
 
 ime.register_command("fh", "Symbol", "特殊符号","","输入字母，例如xing,zuo,cm")
 ime.register_command("py", "PinYin", "汉语拼音","","输入字母，例如a,e,i,o,u,v")
+ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如yy,fy,dyy,syy,qfy,zfy")
 ime.register_command("qz", "Quan", "圈字符","","输入字母，例如hz,sz,zm,zheng,yi")
 ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
