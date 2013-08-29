@@ -1,9 +1,8 @@
 -- encoding: UTF-8
 ------------------------------------------------------
--- by dramatea
--- update:
---				2013-03-21
--- 			http://dramatea.com/a/31
+-- by: dramatea
+-- git: https://github.com/dramatea/Google_Pinyin_IME_extension
+-- page: http://dramatea.com/a/31
 -- CC BY-NC-SA
 -----------------------------------------------------
 
@@ -206,19 +205,17 @@ m 
 n ń,ň,
 ]]
 
-辅音:    清辅音：
-            浊辅音：
-元音： 长元音：
-            短元音：
-            双元音：
 
 _MAPPING_TABLE_YinBiao = [[
-yy i,e,æ,ə,ʌ,ɔ,u,i:,ə:,a:,ɔ:,u:,i,e,æ,ə,ʌ,ɔ,u,i:,ə:,a:,ɔ:,u:
-fy b,d,g,v,ð,z,ʒ,r,dʒ,dz,dr,p,t,k,f,θ,s,ʃ,h,tʃ,ts,tr
-dyy i,e,æ,ə,ʌ,ɔ,u,i:,ə:,a:,ɔ:,u:
-syy ei,ai,ɔi,əu,au,iə,εə,uə
-zfy b,d,g,v,ð,z,ʒ,r,dʒ,dz,dr
-qfy p,t,k,f,θ,s,ʃ,h,tʃ,ts,tr
+gjyy a:,ә:,i:,ɔ:,u:,Λ,ә,i,ɔ,u,ae,e,ai,ei,ɔi,iә,εə,uә,au,әu
+gjfy p,t,k,f,s,∫,t∫,tr,θ,ts,b,d,g,v,z,ʒ,dʒ,dr,ð,dz,m,n,η,h,r,l,w,j
+gj  a:,ә:,i:,ɔ:,u:,Λ,ә,i,ɔ,u,ae,e,ai,ei,ɔi,iә,εə,uә,au,әu,p,t,k,f,s,∫,t∫,tr,θ,ts,b,d,g,v,z,ʒ,dʒ,dr,ð,dz,m,n,η,h,r,l,w,j
+kkyy i,аr,o,u,ɝ,ɚ,Ⅰ,а,ɔ,Ʋ,ʌ,ə,ɛ,аⅠ,ei,ɔⅠ,ɛə,Ʋr,аƲ,ɔr,Ⅰə
+kkfy p,t,k,f,s,θ,ʃ,ʧ,b,d,g,v,z,th,ʒ,ʤ,m,n,ŋ,h,r,l,w,j
+kk i,аr,o,u,ɝ,ɚ,Ⅰ,а,ɔ,Ʋ,ʌ,ə,ɛ,аⅠ,ei,ɔⅠ,ɛə,Ʋr,аƲ,ɔr,Ⅰə,p,t,k,f,s,θ,ʃ,ʧ,b,d,g,v,z,th,ʒ,ʤ,m,n,ŋ,h,r,l,w,j
+ipayy i,y,ɨ,ʉ,ɯ,u,ɪ,ʏ,ɪ̈,ʊ̈,ʊ,e,ø,ɘ,ɵ,ɤ,o,e̞,ø̞,ə,ɤ̞,o̞,ɛ,œ,ɜ,ɞ,ʌ,ɔ,æ,ɐ,a,ɶ,ä,ɑ,ɒ,m̥,m,ɱ,n̪,n̥,n,n̠,ɳ̊,ɳ,ɲ̟,ɲ̊,ɲ,ŋ̊,ŋ,ɴ,p,b,p̪,b̪,t̪,d̪,t,d,ʈ,ɖ,c,ɟ,k,ɡ,q,ɢ,ʡ,ʔ,s̪,z̪,s,z,ʃ,ʒ,ʂ,ʐ,ɕ,ʑ,ɸ,β,f,v,θ,ð,θ̱,ð̠,ç,ʝ,x,ɣ,χ,ʁ,ħ,ʕ,ʜ,ʢ,h,ɦ,β̞,ʋ,ɹ,ɻ,j̊,j,ɰ,ⱱ̟,ⱱ,ɾ,ɽ,ɢ̆,ʡ̯,ʙ,r̥,r,ɽ͡r,ʀ,ᴙ,ɬ,ɮ,ʎ̝̊,ʟ̝̊,ʟ̝,l̥,l,ɭ,ʎ̟,ʎ,ʟ,ɺ,ɺ̢,ʎ̯,ʟ̆
+ipayy i,y,ɨ,ʉ,ɯ,u,ɪ,ʏ,ɪ̈,ʊ̈,ʊ,e,ø,ɘ,ɵ,ɤ,o,e̞,ø̞,ə,ɤ̞,o̞,ɛ,œ,ɜ,ɞ,ʌ,ɔ,æ,ɐ,a,ɶ,ä,ɑ,ɒ
+ipafy m̥,m,ɱ,n̪,n̥,n,n̠,ɳ̊,ɳ,ɲ̟,ɲ̊,ɲ,ŋ̊,ŋ,ɴ,p,b,p̪,b̪,t̪,d̪,t,d,ʈ,ɖ,c,ɟ,k,ɡ,q,ɢ,ʡ,ʔ,s̪,z̪,s,z,ʃ,ʒ,ʂ,ʐ,ɕ,ʑ,ɸ,β,f,v,θ,ð,θ̱,ð̠,ç,ʝ,x,ɣ,χ,ʁ,ħ,ʕ,ʜ,ʢ,h,ɦ,β̞,ʋ,ɹ,ɻ,j̊,j,ɰ,ⱱ̟,ⱱ,ɾ,ɽ,ɢ̆,ʡ̯,ʙ,r̥,r,ɽ͡r,ʀ,ᴙ,ɬ,ɮ,ʎ̝̊,ʟ̝̊,ʟ̝,l̥,l,ɭ,ʎ̟,ʎ,ʟ,ɺ,ɺ̢,ʎ̯,ʟ̆
 ]]
 
 _MAPPING_TABLE_Quan = [[
@@ -380,6 +377,6 @@ end
 
 ime.register_command("fh", "Symbol", "特殊符号","","输入字母，例如xing,zuo,cm")
 ime.register_command("py", "PinYin", "汉语拼音","","输入字母，例如a,e,i,o,u,v")
-ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如yy,fy,dyy,syy,qfy,zfy")
+ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如kk,gj,kkyy,kkfy,ipayy,ipafy")
 ime.register_command("qz", "Quan", "圈字符","","输入字母，例如hz,sz,zm,zheng,yi")
 ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
