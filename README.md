@@ -23,7 +23,7 @@ ifh(特殊符号)，iqz(圈字符)，ipy(拼音字符)，iyb(音标符号)，ixh
 作者：
 ==========
 [Dramatea](http://dramatea.com)  
-###### 支持：[101开放空间](http://site.douban.com/174634/room/2126875/)
+###### 发起与支持：[101开放空间](http://site.douban.com/174634/room/2126875/)
 
 
 授权：
