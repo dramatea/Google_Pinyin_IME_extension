@@ -32,7 +32,8 @@ CC BY-NC-SA
 
 待更新：
 ==========
-添加ifhshuxian,ifhhengxian
+添加ifhshuxian,ifhhengxian  
+添加颜文字
 
 
 更新日志：
