@@ -1,6 +1,4 @@
 Google\_Pinyin\_IME_extension / 谷歌拼音输入法扩展  
-Author: Dramatea | [http://dramatea.com](http://dramatea.com)  
-CC BY-NC-SA
 
 
 
@@ -21,6 +19,20 @@ ifh(特殊符号)，iqz(圈字符)，ipy(拼音字符)，iyb(音标符号)，ixh
 +	all_symbol.lua 包含全部类型符号的输入扩展
 +	serial_number.lua 仅是数字序号的输入扩展
 
+
+作者：
+==========
+[Dramatea](http://dramatea.com)  
+
+
+授权：
+==========
+CC BY-NC-SA
+
+
+待更新：
+==========
+添加ifhshuxian,ifhhengxian
 
 
 更新日志：
