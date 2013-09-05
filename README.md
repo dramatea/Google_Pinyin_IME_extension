@@ -1,6 +1,6 @@
-Google\_Pinyin\_IME_extension / 谷歌拼音输入法扩展  
+__谷歌拼音输入法扩展__ Google Pinyin IME Extension
 
-
+***
 
 使用说明：
 =================================================
