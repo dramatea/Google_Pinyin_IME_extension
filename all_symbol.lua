@@ -332,8 +332,8 @@ _MAPPING_TABLE_Xuhao = [[
 ]]
 
 
-_MAPPING_TABLE_YanWenZi = [[
-a  :-D,:-(,:-P,:-*,;-),:-x,<※,:-O,$_$,@_@,>_<,T_T,= =b,>3<,≧◇≦,＝ ＝＃,(×_×),(︶︿︶),(=^_^=),(￣﹁￣),(T_T),╮(￣▽ ￣)╭,╭（╯_╰）╭,(*+﹏+*)~@,*\(^_^)/*,づ￣ 3￣)づ,b（￣▽￣）d,(￣(工)￣),^(oo)^,Orz
+_MAPPING_TABLE_BiaoQing = [[
+a :-D,:-(,:-P,:-*,;-),:-x,<※,:-O,$_$,@_@,>_<,T_T,= =b,>3<,≧◇≦,＝ ＝＃,(×_×),(︶︿︶),(=^_^=),(￣﹁￣),(T_T),╮(￣▽ ￣)╭,╭（╯_╰）╭,(*+﹏+*)~@,*\(^_^)/*,づ￣ 3￣)づ,b（￣▽￣）d,(￣(工)￣),^(oo)^,Orz
 b ˊˋ,ˇ▂ˇ,ˇ０ˇ,ˇ︿ˇ,ˇωˇ,ˇ﹏ˇ,ˇ△ˇ,ˇ▽ˇ
 ]]
 
@@ -343,7 +343,7 @@ _MAPPING_PinYin = ime.parse_mapping(_MAPPING_TABLE_PinYin, "\n", " ", ",")
 _MAPPING_YinBiao = ime.parse_mapping(_MAPPING_TABLE_YinBiao, "\n", " ", ",")
 _MAPPING_Quan = ime.parse_mapping(_MAPPING_TABLE_Quan, "\n", " ", ",")
 _MAPPING_Xuhao = ime.parse_mapping(_MAPPING_TABLE_Xuhao, "\n", " ", ",")
-_MAPPING_YanWenZi = ime.parse_mapping(_MAPPING_TABLE_YanWenZi, "\n", " ", ",")
+_MAPPING_BiaoQing = ime.parse_mapping(_MAPPING_TABLE_BiaoQing, "\n", " ", ",")
 
 
 function Symbol(input)
@@ -361,6 +361,7 @@ function PinYin(input)
     error("Invalid argument")
   end
 end
+
 
 function YinBiao(input)
   if _MAPPING_YinBiao[input] then
@@ -388,17 +389,9 @@ function SerialNumber(input)
 end
 
 
-function YanWenZi(input)
-  if _MAPPING_YanWenZi[input] then
-    return _MAPPING_YanWenZi[input]
-  else
-    error("Invalid argument")
-  end
-end
-
 function BiaoQing(input)
-  if _MAPPING_YanWenZi[input] then
-    return _MAPPING_YanWenZi[input]
+  if _MAPPING_BiaoQing[input] then
+    return _MAPPING_BiaoQing [input]
   else
     error("Invalid argument")
   end
@@ -410,5 +403,4 @@ ime.register_command("py", "PinYin", "汉语拼音","","输入字母，例如a,e
 ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如kk,gj,kkyy,kkfy,ipayy,ipafy")
 ime.register_command("qz", "Quan", "圈字符","","输入字母，例如hz,sz,zm,zheng,yi")
 ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
-ime.register_command("bq", "BiaoQing", "表情/颜文字","","输入字母，例如a,b,c,d,e")
-ime.register_command("ywz", "YanWenZi", "表情/颜文字","","输入字母，例如a,b,c,d,e")
+ime.register_command("bq", "BiaoQing", "表情符号","","输入字母，例如a,b,c,d,e")
