@@ -155,12 +155,12 @@ qsz ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩,◎,⊙
 pinyin ā,á,ǎ,à,ō,ó,ǒ,ò,ê,ē,é,ě,è,ê,ī,í,ǐ,ì,ū,ú,ǔ,ù,ǖ,ǘ,ǚ,ǜ,ü,,ń,ň,
 py ā,á,ǎ,à,ō,ó,ǒ,ò,ê,ē,é,ě,è,ê,ī,í,ǐ,ì,ū,ú,ǔ,ù,ǖ,ǘ,ǚ,ǜ,ü,,ń,ň,
 zhuyin ㄅ,ㄆ,ㄇ,ㄈ,ㄉ,ㄊ,ㄋ,ㄌ,ㄍ,ㄎ,ㄏ,ㄐ,ㄑ,ㄒ,ㄓ,ㄔ,ㄕ,ㄖ,ㄗ,ㄘ,ㄙ,ㄚ,ㄛ,ㄜ,ㄝ,ㄞ,ㄟ,ㄠ,ㄡ,ㄢ,ㄣ,ㄤ,ㄥ,ㄦ,ㄧ,ㄨ,ㄩ
-rw,ry,riyu,riwen ぁ,あ,ぃ,い,ぅ,う,ぇ,え,ぉ,お,か,が,き,ぎ,く,ぐ,け,げ,こ,ご,さ,ざ,し,じ,す,ず,せ,ぜ,そ,ぞ,た,だ,ち,ぢ,っ,つ,づ,て,で,と,ど,な,に,ぬ,ね,の,は,ば,ぱ,ひ,び,ぴ,ふ,ぶ,ぷ,へ,べ,ぺ,ほ,ぼ,ぽ,ま,み,む,め,も,ゃ,や,ゅ,ゆ,ょ,よ,ら,り,る,れ,ろ,ゎ,わ,ゐ,ゑ,を,ん
+riyu ぁ,あ,ぃ,い,ぅ,う,ぇ,え,ぉ,お,か,が,き,ぎ,く,ぐ,け,げ,こ,ご,さ,ざ,し,じ,す,ず,せ,ぜ,そ,ぞ,た,だ,ち,ぢ,っ,つ,づ,て,で,と,ど,な,に,ぬ,ね,の,は,ば,ぱ,ひ,び,ぴ,ふ,ぶ,ぷ,へ,べ,ぺ,ほ,ぼ,ぽ,ま,み,む,め,も,ゃ,や,ゅ,ゆ,ょ,よ,ら,り,る,れ,ろ,ゎ,わ,ゐ,ゑ,を,ん
+riwen ぁ,あ,ぃ,い,ぅ,う,ぇ,え,ぉ,お,か,が,き,ぎ,く,ぐ,け,げ,こ,ご,さ,ざ,し,じ,す,ず,せ,ぜ,そ,ぞ,た,だ,ち,ぢ,っ,つ,づ,て,で,と,ど,な,に,ぬ,ね,の,は,ば,ぱ,ひ,び,ぴ,ふ,ぶ,ぷ,へ,べ,ぺ,ほ,ぼ,ぽ,ま,み,む,め,も,ゃ,や,ゅ,ゆ,ょ,よ,ら,り,る,れ,ろ,ゎ,わ,ゐ,ゑ,を,ん
 ewen А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я,а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ы,ь,э,ю,я
 xila Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,∧,Μ,Ν,Ξ,Ο,∏,Ρ,∑,Τ,Υ,Φ,Χ,Ψ,Ω,α,β,γ,δ,ε,ζ,η,θ,ι,κ,λ,μ,ν,ξ,ο,π,ρ,σ,τ,υ,φ,χ,ψ,ω
 xiladx Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,∧,Μ,Ν,Ξ,Ο,∏,Ρ,∑,Τ,Υ,Φ,Χ,Ψ,Ω
 xilaxx α,β,γ,δ,ε,ζ,η,θ,ι,κ,λ,μ,ν,ξ,ο,π,ρ,σ,τ,υ,φ,χ,ψ,ω
-jiantou ↑ ↓ ← → ↖ ↗ ↙ ↘ ↔ ↕ ➻ ➼ ➽ ➸ ➳ ➺ ➻ ➴ ➵ ➶ ➷ ➹ ▶ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➾ ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↠ ↡ ↢ ↣ ↤ ↤ ↥ ↦ ↧ ↨ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌ ⇍ ⇎ ⇏ ⇐ ⇑ ⇒ ⇓ ⇔ ⇖ ⇗ ⇘ ⇙ ⇜ ↩ ↪ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↳ ↴ ↵ ↶ ↷ ↸ ↹ ↺ ↻ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥ ⇦ ⇧ ⇨ ⇩ ⇪
 wan 卐,卍
 fu 卐,卍
 no №
@@ -190,7 +190,7 @@ luoxuan ๑
 xueren ☃
 huixing ☄
 puke ♠,♤,♢,♦,♣,♧,♥
-yinyue ♩,♪,♫,♬,♭,♯
+yinyue ♩,♪,♫,♬,♭,♮,♯
 aixin ❤,♥,♡,❥,❣
 xin ❤,♥,♡,❥,❣
 shou ☜,☞,✌,✍
@@ -332,12 +332,18 @@ _MAPPING_TABLE_Xuhao = [[
 ]]
 
 
+_MAPPING_TABLE_YanWenZi = [[
+a  :-D,:-(,:-P,:-*,;-),:-x,<※,:-O,$_$,@_@,>_<,T_T,= =b,>3<,≧◇≦,＝ ＝＃,(×_×),(︶︿︶),(=^_^=),(￣﹁￣),(T_T),╮(￣▽ ￣)╭,╭（╯_╰）╭,(*+﹏+*)~@,*\(^_^)/*,づ￣ 3￣)づ,b（￣▽￣）d,(￣(工)￣),^(oo)^,Orz
+b ˊˋ,ˇ▂ˇ,ˇ０ˇ,ˇ︿ˇ,ˇωˇ,ˇ﹏ˇ,ˇ△ˇ,ˇ▽ˇ
+]]
+
 
 _MAPPING = ime.parse_mapping(_MAPPING_TABLE, "\n", " ", ",")
 _MAPPING_PinYin = ime.parse_mapping(_MAPPING_TABLE_PinYin, "\n", " ", ",")
 _MAPPING_YinBiao = ime.parse_mapping(_MAPPING_TABLE_YinBiao, "\n", " ", ",")
 _MAPPING_Quan = ime.parse_mapping(_MAPPING_TABLE_Quan, "\n", " ", ",")
 _MAPPING_Xuhao = ime.parse_mapping(_MAPPING_TABLE_Xuhao, "\n", " ", ",")
+_MAPPING_YanWenZi = ime.parse_mapping(_MAPPING_TABLE_YanWenZi, "\n", " ", ",")
 
 
 function Symbol(input)
@@ -381,8 +387,20 @@ function SerialNumber(input)
   end
 end
 
+
+function YanWenZi(input)
+  if _MAPPING_YanWenZi[input] then
+    return _MAPPING_YanWenZi[input]
+  else
+    error("Invalid argument")
+  end
+end
+
+
 ime.register_command("fh", "Symbol", "特殊符号","","输入字母，例如xing,zuo,cm")
 ime.register_command("py", "PinYin", "汉语拼音","","输入字母，例如a,e,i,o,u,v")
 ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如kk,gj,kkyy,kkfy,ipayy,ipafy")
 ime.register_command("qz", "Quan", "圈字符","","输入字母，例如hz,sz,zm,zheng,yi")
 ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
+ime.register_command("bq", "YanWenZi", "数字序号","","输入字母，例如a,b,c,d,e")
+ime.register_command("ywz", "YanWenZi", "数字序号","","输入字母，例如a,b,c,d,e")
