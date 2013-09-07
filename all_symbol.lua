@@ -396,11 +396,19 @@ function YanWenZi(input)
   end
 end
 
+function BiaoQing(input)
+  if _MAPPING_YanWenZi[input] then
+    return _MAPPING_YanWenZi[input]
+  else
+    error("Invalid argument")
+  end
+end
+
 
 ime.register_command("fh", "Symbol", "特殊符号","","输入字母，例如xing,zuo,cm")
 ime.register_command("py", "PinYin", "汉语拼音","","输入字母，例如a,e,i,o,u,v")
 ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如kk,gj,kkyy,kkfy,ipayy,ipafy")
 ime.register_command("qz", "Quan", "圈字符","","输入字母，例如hz,sz,zm,zheng,yi")
 ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
-ime.register_command("bq", "YanWenZi", "数字序号","","输入字母，例如a,b,c,d,e")
-ime.register_command("ywz", "YanWenZi", "数字序号","","输入字母，例如a,b,c,d,e")
+ime.register_command("bq", "BiaoQing", "表情/颜文字","","输入字母，例如a,b,c,d,e")
+ime.register_command("ywz", "YanWenZi", "表情/颜文字","","输入字母，例如a,b,c,d,e")
