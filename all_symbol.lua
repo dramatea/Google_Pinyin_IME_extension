@@ -1,8 +1,6 @@
 -- encoding: UTF-8
 ------------------------------------------------------
--- by: dramatea
--- git: https://github.com/dramatea/Google_Pinyin_IME_extension
--- page: http://dramatea.com/a/31
+-- page: https://github.com/dramatea/Google_Pinyin_IME_extension/wiki
 -- CC BY-NC-SA
 -----------------------------------------------------
 
@@ -472,4 +470,4 @@ ime.register_command("py", "PinYin", "汉语拼音","","输入字母，例如a,e
 ime.register_command("yb", "YinBiao", "音标符号","","输入字母，例如kk,gj,kkyy,kkfy,ipayy,ipafy")
 ime.register_command("qz", "Quan", "圈字符","","输入字母，例如hz,sz,zm,zheng,yi")
 ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
-ime.register_command("bq", "BiaoQing", "表情符号","","输入字母，例如a,b,c,d,e")
+ime.register_command("bq", "BiaoQing", "表情符号","","输入字母，例如a,b,c,d,ku,xiao,jing")
