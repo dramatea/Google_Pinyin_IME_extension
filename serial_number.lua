@@ -1,9 +1,6 @@
 -- encoding: UTF-8
 ------------------------------------------------------
--- by dramatea.com
--- update:
--- 2013-03-21
--- http://dramatea.com/a/8
+-- page: https://github.com/dramatea/Google_Pinyin_IME_extension/wiki
 -- CC BY-NC-SA
 -----------------------------------------------------
 
@@ -41,4 +38,4 @@ error("Invalid argument")
 end
 end
 
-ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1")
+ime.register_command("xh", "SerialNumber", "数字序号","alpha","输入数字，例如1,2,3")
