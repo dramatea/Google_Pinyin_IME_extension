@@ -1,6 +1,13 @@
 __谷歌拼音输入法扩展__ Google Pinyin IME Extension
 
-主页及扩展下载 https://github.com/dramatea/Google_Pinyin_IME_extension/wiki
+[主页及扩展下载](https://github.com/NodeWee/Google_Pinyin_IME_extension/wiki)
+
+后续维护转交到 [nodewee](https://github.com/NodeWee/Google_Pinyin_IME_extension)
+
+>ps: 现在换了操作系统就很少用到谷歌拼音输入法和这个扩展了。
+如果你做了改进欢迎提交合并（到[nodewee](https://github.com/NodeWee/Google_Pinyin_IME_extension)的repo）。
+
+
 
 ***
 
@@ -25,18 +32,6 @@ __谷歌拼音输入法扩展__ Google Pinyin IME Extension
 +	serial_number.lua 仅是数字序号的输入扩展
 
 
-贡献者：
-==========
-[Dramatea](http://dramatea.com)  
-###### 发起与支持：[101开放空间](http://site.douban.com/174634/room/2126875/)
-感谢以下朋友提供的宝贵意见：  
-LQ
-
-授权：
-==========
-CC BY-NC-SA
-
-
 更新日志：
 =================================================
 ###### v.20130910
@@ -48,5 +43,3 @@ CC BY-NC-SA
 1. 补充几个符号；  
 2. 添加符号种类：音标（iyb）。美语(kk)音标，国际(IPA)音标。
 
-###### 之前
-1. 原作者作品页面：[http://dramatea.com/a/31](http://dramatea.com/a/31)
